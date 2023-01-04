@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  border: 1px solid red;
+}
+.main .imgBox {
+  background-color: #B2D3D1;
+}
+.main .imgBox .personalImg {
+  position: relative;
+  top: -150px;
+  left: -200px;
+  width: 130%;
+  border: 1px solid red;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .containBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 250px 50px 150px 50px;
+}
+.main .containBox .h2Box h2 {
+  font-size: 4rem;
+}
+.main .containBox .h2Box p {
+  font-size: 1.5rem;
+}
+.main .containBox .h3Box h3 {
+  font-size: 3rem;
+}
+.main .containBox .h3Box P {
+  font-size: 1.5rem;
+}
+.main .containBox .qrCodeBox {
+  border: 1px solid red;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.main .containBox .qrCodeBox li {
+  width: 33%;
+  text-align: center;
+}
+.main .containBox .qrCodeBox li span {
+  font-size: 1.2rem;
+}
+.main .containBox .qrCodeBox li img {
+  width: 90%;
+}
+
+.questionnaireBox {
+  background-color: aqua;
+  height: 100vh;
+}/*# sourceMappingURL=index.css.map */
