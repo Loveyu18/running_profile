@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link
-                rel="stylesheet"
-                href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-                integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-                crossorigin="anonymous"
-            />
-            <link rel="stylesheet" href="./index_ex.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./index_ex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>index_ex</title>
 </head>
+
 <body>
     <section class="banner">
         <header>
             <a href="#" class="logo">Portfolio</a>
             <div class="toggle"></div>
         </header>
+
+        <img class="men" src="./img/personal_img.png" alt="個人照片">
+
+        <div class="content">
+            <div class="contentBox">
+                <h4>Hello</h4>
+                <h2>I'm BOB</h2>
+                <h3>Profess Profess Profess Profess</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores voluptates nihil nam obcaecati quia
+                    labore asperiores consequuntur, magni eum similique culpa qui! Molestias laboriosam sed vero saepe
+                    error velit sequi.</p>
+                    <a href="#">Hire me</a>
+                    <a href="#">Download</a>
+            </div>
+        </div>
     </section>
+
+
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const banner = document.querySelector('.banner')
+        toggle.onclick = function () {
+            toggle.classList.toggle('active')
+            banner.classList.toggle('active')
+        }
+    </script>
+
 </body>
+
 </html>

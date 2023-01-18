@@ -24,4 +24,57 @@ section::before {
   height: 500px;
   border-radius: 50%;
   background-color: #ed325f;
+  transition: 1s;
+}
+
+section.active::before {
+  background-color: #21283a;
+  box-shadow: 0 0 0 1200px #B2D3D1;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+header .toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(./img/Menu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  cursor: pointer;
+}
+
+header .toggle.active {
+  background: url(./img/Close.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+}
+
+.men {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: 50px;
+  max-width: 600px;
 }/*# sourceMappingURL=index_ex.css.map */
