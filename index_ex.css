@@ -77,4 +77,46 @@ header .toggle.active {
   bottom: 0;
   right: 50px;
   max-width: 600px;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.content .contentBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .contentBox h4 {
+  font-weight: 400;
+  color: #1ede6d;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.content .contentBox h2 {
+  font-size: 4em;
+  line-height: 1em;
+  color: #fff;
+}
+
+.content .contentBox h3 {
+  font-weight: 300;
+  color: #fff;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.content .contentBox p {
+  font-size: 1em;
+  color: #fff;
+  margin: 10px 0 20px;
+  font-weight: 300;
 }/*# sourceMappingURL=index_ex.css.map */
